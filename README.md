@@ -8,18 +8,18 @@ Autors: **Modris Šķēls** — 30 gadu mārketinga pieredze, [skels.lv](https:/
 
 ---
 
-## 1. Galvenais — 3 no 4 AI meklētājiem neizmanto Google
+## 1. Galvenais — AI meklētāji neizmanto Google tāpat kā parastā meklēšana
 
-Lielākā daļa uzņēmumu domā, ka pietiek ar Google SEO. Tā nav taisnība AI meklēšanā.
+Lielākā daļa uzņēmumu domā, ka pietiek ar Google SEO. Tā nav taisnība AI meklēšanā — katram dzinējam ir savs ceļš, kā atrod lapas.
 
-| Platforma | Kuru indeksu izmanto |
+| Platforma | Kā atrod lapas |
 |---|---|
-| ChatGPT (search režīms) | Bing |
-| Perplexity | Bing + savs |
+| ChatGPT (search) | Savs robots + indekss; daļēji Bing |
+| Perplexity | Savs indekss + robots; daļēji Bing |
 | Microsoft Copilot | Bing |
-| Google Gemini | Google |
+| Google Gemini / AI Overviews | Google |
 
-Tradicionāls Google SEO stiprina tikai **1 no 4** AI platformām. Pilna AI redzamība prasa darbu pie Bing **un** Google **un** entītes datiem paralēli. Vairums Latvijas uzņēmumu Bing indeksāciju nav uzstādījuši nemaz — tāpēc ChatGPT un Perplexity tos vienkārši neredz.
+Tradicionāls Google SEO sedz tikai vienu no tiem (Gemini). Pilna AI redzamība prasa trīs lietas paralēli: (1) atļaut visiem AI robotiem lasīt lapu, (2) būt gan Bing, gan Google indeksā, (3) strukturēti dati. Vairums Latvijas uzņēmumu neko no tā nav sakārtojuši — tāpēc AI meklētāji tos vienkārši neredz.
 
 ---
 
@@ -30,16 +30,16 @@ Tradicionāls Google SEO stiprina tikai **1 no 4** AI platformām. Pilna AI redz
 | 1 | `robots.txt` ar `Allow` rindām GPTBot, ClaudeBot, PerplexityBot, Google-Extended | 1 min | Pamats — bez tā AI roboti lapu neredz |
 | 2 | Schema.org JSON-LD (Person, Organization, Service, FAQPage, Article) | 2–4 h | Strukturēti fakti, ko AI citē |
 | 3 | `llms.txt` un `llms-full.txt` lapas saknē | 30 min | AI robotiem domāts lapas teksta kopsavilkums |
-| 4 | Bing Webmaster + IndexNow ar automātisku ping pēc katras publicēšanas | 30 min | Atbloķē 3 no 4 AI platformām |
+| 4 | Bing Webmaster + IndexNow ar automātisku ping pēc katras publicēšanas | 30 min | Sedz Copilot + stiprina Bing pusi |
 | 5 | Google Business / Bing Places profils ar vietnes lauku | 30 min + verifikācija | Zināšanu paneļa savienojums vārds → lapa |
 | 6 | Ārējās atsauces (`sameAs`) — LinkedIn, Google profils, GitHub, Crunchbase | 1–3 h | Stiprina entītes datus |
 | 7 | Sitemap iesniegts + Google Search Console "Request Indexing" | 5 min | Paātrina indeksāciju no nedēļām uz dienām |
 
 ---
 
-## 3. Bing pirmais (kritiskais solis)
+## 3. Bing — neaizmirstamais solis
 
-Uzņēmums ar aktīvu Google SEO bieži pieņem, ka viss ir kārtībā. Bet ChatGPT, Perplexity un Copilot lapu neredz, jo Bing indeksācija nestrādā vai nav uzstādīta.
+Uzņēmums ar aktīvu Google SEO bieži pieņem, ka viss ir kārtībā. Bet Microsoft Copilot balstās uz Bing, un, ja tava lapa Bing indeksā nav, tad tur tevi neredz. Bing nav vienīgais (ChatGPT un Perplexity lieto pašu indeksus), bet to sakārtot ir ātri un to bieži aizmirst.
 
 Soļi:
 
@@ -60,7 +60,7 @@ Biznesa profils ar **vietnes lauku** ir vienīgā vieta, kur meklētāji struktu
 | Platforma | Adrese | Ko sasniedz | Laiks |
 |---|---|---|---|
 | Google Business Profile | [business.google.com](https://business.google.com) | Gemini + Google meklēšana | 30 min + verifikācija |
-| Bing Places for Business | [bingplaces.com](https://www.bingplaces.com) | ChatGPT + Perplexity + Copilot (3 no 4) | 5 min ar "Import from Google" |
+| Bing Places for Business | [bingplaces.com](https://www.bingplaces.com) | Microsoft Copilot + Bing rezultāti | 5 min ar "Import from Google" |
 | Apple Maps Connect | [mapsconnect.apple.com](https://mapsconnect.apple.com) | Siri + Apple Maps + Spotlight | 15 min |
 
 Praktisks triks: **Bing Places automātiski pārņem Google profila datus** ar funkciju "Import from Google". Tāpēc nav jāveic uzstādīšana trīs reizes — Google profils ir pamats, pārējos divus tikai pievieno.
